@@ -1,68 +1,133 @@
-# Data-Analysis-Workflows
+# Bioinformatics Data Analysis Workflows
 
-# Data Analysis Workflows
+This repository contains a collection of bioinformatics data analysis workflows implemented using various tools and languages, including Python, R, Bash, Nextflow, Airflow, and Snowflake.
 
-This repository contains a collection of data analysis workflows for various data types using Python, R, Bash, Nextflow, Airflow, and Snowflake.
+## Table of Contents
 
-Microarray Data Analysis
-microarray_analysis.py: Python script for analyzing microarray data.
-microarray_analysis.nf: Nextflow workflow for microarray data analysis.
-microarray_analysis_dag.py: Airflow DAG for microarray data analysis.
-microarray_analysis.sql: Snowflake SQL task for microarray data analysis.
-RNA-Seq Data Analysis
-rna_seq_analysis.R: R script for RNA-Seq data analysis.
-rna_seq_analysis.nf: Nextflow workflow for RNA-Seq data analysis.
-rna_seq_analysis_dag.py: Airflow DAG for RNA-Seq data analysis.
-rna_seq_analysis.sql: Snowflake SQL task for RNA-Seq data analysis.
-ChIP-Seq Data Analysis
-chip_seq_analysis.sh: Bash script for ChIP-Seq data analysis.
-chip_seq_analysis.nf: Nextflow workflow for ChIP-Seq data analysis.
-chip_seq_analysis_dag.py: Airflow DAG for ChIP-Seq data analysis.
-chip_seq_analysis.sql: Snowflake SQL task for ChIP-Seq data analysis.
-miRNA Data Analysis
-mirna_analysis.py: Python script for miRNA data analysis.
-mirna_analysis.nf: Nextflow workflow for miRNA data analysis.
-mirna_analysis_dag.py: Airflow DAG for miRNA data analysis.
-mirna_analysis.sql: Snowflake SQL task for miRNA data analysis.
-RPPA Protein Data Analysis
-rppa_analysis.R: R script for RPPA protein data analysis.
-rppa_analysis.nf: Nextflow workflow for RPPA protein data analysis.
-rppa_analysis_dag.py: Airflow DAG for RPPA protein data analysis.
-rppa_analysis.sql: Snowflake SQL task for RPPA protein data analysis.
-1K Genome Data Analysis
-1k_genome_analysis.sh: Bash script for 1K genome data analysis.
-1k_genome_analysis.nf: Nextflow workflow for 1K genome data analysis.
-1k_genome_analysis_dag.py: Airflow DAG for 1K genome data analysis.
-1k_genome_analysis.sql: Snowflake SQL task for 1K genome data analysis.
-TCGA Data Analysis
-tcga_analysis.R: R script for TCGA data analysis.
-tcga_analysis.nf: Nextflow workflow for TCGA data analysis.
-tcga_analysis_dag.py: Airflow DAG for TCGA data analysis.
-tcga_analysis.sql: Snowflake SQL task for TCGA data analysis.
-COSMIC Data Analysis
-cosmic_analysis.py: Python script for COSMIC data analysis.
-cosmic_analysis.nf: Nextflow workflow for COSMIC data analysis.
-cosmic_analysis_dag.py: Airflow DAG for COSMIC data analysis.
-cosmic_analysis.sql: Snowflake SQL task for COSMIC data analysis.
-dbGAP Data Analysis
-dbgap_analysis.R: R script for dbGAP data analysis.
-dbgap_analysis.nf: Nextflow workflow for dbGAP data analysis.
-dbgap_analysis_dag.py: Airflow DAG for dbGAP data analysis.
-dbgap_analysis.sql: Snowflake SQL task for dbGAP data analysis.
-Single-cell RNA-Seq Data Analysis
-scrna_seq_analysis.R: R script for single-cell RNA-Seq data analysis.
-scrna_seq_analysis.nf: Nextflow workflow for single-cell RNA-Seq data analysis.
-scrna_seq_analysis_dag.py: Airflow DAG for single-cell RNA-Seq data analysis.
-scrna_seq_analysis.sql: Snowflake SQL task for single-cell RNA-Seq data analysis.
-CyTOF Data Analysis
-cytof_analysis.py: Python script for CyTOF data analysis.
-cytof_analysis.nf: Nextflow workflow for CyTOF data analysis.
-cytof_analysis_dag.py: Airflow DAG for CyTOF data analysis.
-cytof_analysis.sql: Snowflake SQL task for CyTOF data analysis.
-Flow Cytometry Data Analysis
-flow_cytometry_analysis.R: R script for flow cytometry data analysis.
-flow_cytometry_analysis.nf: Nextflow workflow for flow cytometry data analysis.
-flow_cytometry_analysis_dag.py: Airflow DAG for flow cytometry data analysis.
-flow_cytometry_analysis.sql: Snowflake SQL task for flow cytometry data analysis.
-Deployment and Integration with RESTful API
+- [Microarray Data Analysis](#microarray-data-analysis)
+- [RNA-Seq Data Analysis](#rna-seq-data-analysis)
+- [ChIP-Seq Data Analysis](#chip-seq-data-analysis)
+- [miRNA Data Analysis](#mirna-data-analysis)
+- [RPPA Protein Data Analysis](#rppa-protein-data-analysis)
+- [1K Genome Data Analysis](#1k-genome-data-analysis)
+- [TCGA Data Analysis](#tcga-data-analysis)
+- [COSMIC Data Analysis](#cosmic-data-analysis)
+- [dbGAP Data Analysis](#dbgap-data-analysis)
+- [Single-cell RNA-Seq Data Analysis](#single-cell-rna-seq-data-analysis)
+- [CyTOF Data Analysis](#cytof-data-analysis)
+- [Flow Cytometry Data Analysis](#flow-cytometry-data-analysis)
+
+## Microarray Data Analysis
+
+- **Python script**: `microarray_analysis.py`
+- **Nextflow workflow**: `microarray_analysis.nf`
+- **Airflow DAG**: `microarray_analysis_dag.py`
+- **Snowflake SQL task**: `microarray_analysis.sql`
+
+## RNA-Seq Data Analysis
+
+- **R script**: `rna_seq_analysis.R`
+- **Nextflow workflow**: `rna_seq_analysis.nf`
+- **Airflow DAG**: `rna_seq_analysis_dag.py`
+- **Snowflake SQL task**: `rna_seq_analysis.sql`
+
+## ChIP-Seq Data Analysis
+
+- **Bash script**: `chip_seq_analysis.sh`
+- **Nextflow workflow**: `chip_seq_analysis.nf`
+- **Airflow DAG**: `chip_seq_analysis_dag.py`
+- **Snowflake SQL task**: `chip_seq_analysis.sql`
+
+## miRNA Data Analysis
+
+- **Python script**: `mirna_analysis.py`
+- **Nextflow workflow**: `mirna_analysis.nf`
+- **Airflow DAG**: `mirna_analysis_dag.py`
+- **Snowflake SQL task**: `mirna_analysis.sql`
+
+## RPPA Protein Data Analysis
+
+- **R script**: `rppa_analysis.R`
+- **Nextflow workflow**: `rppa_analysis.nf`
+- **Airflow DAG**: `rppa_analysis_dag.py`
+- **Snowflake SQL task**: `rppa_analysis.sql`
+
+## 1K Genome Data Analysis
+
+- **Bash script**: `1k_genome_analysis.sh`
+- **Nextflow workflow**: `1k_genome_analysis.nf`
+- **Airflow DAG**: `1k_genome_analysis_dag.py`
+- **Snowflake SQL task**: `1k_genome_analysis.sql`
+
+## TCGA Data Analysis
+
+- **R script**: `tcga_analysis.R`
+- **Nextflow workflow**: `tcga_analysis.nf`
+- **Airflow DAG**: `tcga_analysis_dag.py`
+- **Snowflake SQL task**: `tcga_analysis.sql`
+
+## COSMIC Data Analysis
+
+- **Python script**: `cosmic_analysis.py`
+- **Nextflow workflow**: `cosmic_analysis.nf`
+- **Airflow DAG**: `cosmic_analysis_dag.py`
+- **Snowflake SQL task**: `cosmic_analysis.sql`
+
+## dbGAP Data Analysis
+
+- **R script**: `dbgap_analysis.R`
+- **Nextflow workflow**: `dbgap_analysis.nf`
+- **Airflow DAG**: `dbgap_analysis_dag.py`
+- **Snowflake SQL task**: `dbgap_analysis.sql`
+
+## Single-cell RNA-Seq Data Analysis
+
+- **R script**: `scrna_seq_analysis.R`
+- **Nextflow workflow**: `scrna_seq_analysis.nf`
+- **Airflow DAG**: `scrna_seq_analysis_dag.py`
+- **Snowflake SQL task**: `scrna_seq_analysis.sql`
+
+## CyTOF Data Analysis
+
+- **Python script**: `cytof_analysis.py`
+- **Nextflow workflow**: `cytof_analysis.nf`
+- **Airflow DAG**: `cytof_analysis_dag.py`
+- **Snowflake SQL task**: `cytof_analysis.sql`
+
+## Flow Cytometry Data Analysis
+
+- **R script**: `flow_cytometry_analysis.R`
+- **Nextflow workflow**: `flow_cytometry_analysis.nf`
+- **Airflow DAG**: `flow_cytometry_analysis_dag.py`
+- **Snowflake SQL task**: `flow_cytometry_analysis.sql`
+
+## Deployment and Integration with RESTful API
+
 For deployment and integration with RESTful APIs, you can consider creating endpoint services that trigger these workflows and scripts. Using a web framework like Flask or Django for Python, Plumber for R, or FastAPI for quick deployment could be beneficial. You can set up endpoints to handle requests, process input data, and return results after running the respective scripts or workflows.
+
+For example, a basic structure for a Flask app to integrate these workflows might look like:
+
+```python
+from flask import Flask, request, jsonify
+import subprocess
+
+app = Flask(__name__)
+
+@app.route('/microarray_analysis', methods=['POST'])
+def microarray_analysis():
+    data = request.json
+    # Call your Nextflow workflow or Python script here
+    subprocess.run(['nextflow', 'run', 'microarray_analysis.nf'])
+    return jsonify({'status': 'Microarray analysis started'})
+
+@app.route('/rna_seq_analysis', methods=['POST'])
+def rna_seq_analysis():
+    data = request.json
+    # Call your Nextflow workflow or R script here
+    subprocess.run(['nextflow', 'run', 'rna_seq_analysis.nf'])
+    return jsonify({'status': 'RNA-Seq analysis started'})
+
+# Add more endpoints for each analysis type...
+
+if __name__ == '__main__':
+    app.run(debug=True)
