@@ -18,4 +18,5 @@ plt.scatter(pca_result[:, 0], pca_result[:, 1])
 plt.title('PCA of Microarray Data')
 plt.xlabel('PC1')
 plt.ylabel('PC2')
-plt.show()
+plt.savefig('microarray_pca.png')
+
