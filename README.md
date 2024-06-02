@@ -17,7 +17,7 @@ This repository contains a collection of bioinformatics data analysis workflows 
 - [CyTOF Data Analysis](#cytof-data-analysis)
 - [Flow Cytometry Data Analysis](#flow-cytometry-data-analysis)
 - [TCGA Omics Data Integration](#tcga-omics-data-integration)
-- [scRNA Omics Data Integration](#scrna-omics-data-integration)
+- [scOmics Data Integration](#scrna-omics-data-integration)
 
 ## Microarray Data Analysis
 
@@ -109,7 +109,7 @@ This repository contains a collection of bioinformatics data analysis workflows 
 - **Airflow DAG**: `tcga_omics_analysis_dag.py`
 - **Snowflake SQL task**: `tcga_omics_analysis.sql`
 
-## scRNA Omics Data Integration
+## scOmics Data Integration
 
 - **R script**: `scrna_omics_analysis.R`
 - **Nextflow workflow**: `scrna_omics_analysis.nf`
